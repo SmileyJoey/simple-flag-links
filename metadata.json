@@ -1,0 +1,9 @@
+{
+    "name" : "Simple Flag Links",
+    "version" : "1.0.8",
+    "author" : "Hanning H.",
+    "download_url" : "https://github.com/SmileyJoey/simple-flag-links/archive/master.zip",
+    "sections" : {
+        "description" : "This wordpress plugin allows you to insert flags + links in any widget area."
+    }
+}
