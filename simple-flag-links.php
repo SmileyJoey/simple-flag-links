@@ -1,4 +1,14 @@
 <?php
+
+//Plugin Update Checker
+require 'plugin-update-checker/plugin-update-checker.php';
+$className = PucFactory::getLatestClassVersion('PucGitHubChecker');
+$myUpdateChecker = new $className(
+    'https://github.com/SmileyJoey/simple-flag-links/',
+    __FILE__,
+    'master'
+);
+
 /**
  * Plugin Name: Simple Flag Links
  * Description: This plugin adds a widget where you can add a flag + a link on the page.
