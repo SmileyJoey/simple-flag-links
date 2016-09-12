@@ -1,7 +1,7 @@
 <?php
 
 //Plugin Update Checker
-require 'plugin-update-checker/plugin-update-checker.php';
+require 'plugin-update-checker.php';
 $className = PucFactory::getLatestClassVersion('PucGitHubChecker');
 $myUpdateChecker = new $className(
     'https://github.com/SmileyJoey/simple-flag-links/',
