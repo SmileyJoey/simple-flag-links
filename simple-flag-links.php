@@ -497,6 +497,7 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 
 }
 
+$hej = "hej";
 
 /**
  * Widget Registration.
