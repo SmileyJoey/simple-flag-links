@@ -1,0 +1,335 @@
+@font-face {
+	font-family: 'fontello';
+	src: url('../font/fontello.eot?78492063');
+	src: url('../font/fontello.eot?78492063#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?78492063') format('woff'),
+       url('../font/fontello.ttf?78492063') format('truetype'),
+       url('../font/fontello.svg?78492063#fontello') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?11995952#fontello') format('svg');
+  }
+}
+*/
+
+.simple-flag-links {
+	overflow: hidden;
+}
+
+.simple-flag-links ul {
+	margin: 0;
+	padding: 0;
+}
+
+.simple-flag-links ul li {
+	background: none !important;
+	border: none !important;
+	float: left;
+	list-style-type: none !important;
+	margin: 0 6px 12px !important;
+	padding: 0 !important;
+}
+
+.simple-flag-links ul li a {
+	display: inline-block;
+	text-align: center;
+	background-size: 100% 100%;
+	border-bottom: none;
+}
+
+.simple-flag-links ul.aligncenter {
+	text-align: center;
+}
+
+.simple-flag-links ul.aligncenter li {
+	display: inline-block;
+	float: none;
+}
+
+.simple-flag-links > div > h4{
+	text-align: center !important;
+	padding-top: 10px !important;
+}
+
+/*  ROUND FLAGS */
+.flag-australia-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Australia.png") no-repeat;
+}
+.flag-brazil-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Brazil.png") no-repeat;
+}
+.flag-canada-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Canada.png") no-repeat;
+}
+.flag-denmark-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Denmark.png") no-repeat;
+}
+.flag-germany-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Germany.png") no-repeat;
+}
+.flag-hongkong-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Hong_Kong.png") no-repeat;
+}
+.flag-india-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/India.png") no-repeat;
+}
+.flag-italy-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Italy.png") no-repeat;
+}
+.flag-japan-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Japan.png") no-repeat;
+}
+.flag-nigeria-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Nigeria.png") no-repeat;
+}
+.flag-norway-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Norway.png") no-repeat;
+}
+.flag-poland-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Poland.png") no-repeat;
+}
+.flag-spain-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Spain.png") no-repeat;
+}
+.flag-sweden-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Sweden.png") no-repeat;
+}
+.flag-turkey-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Turkey.png") no-repeat;
+}
+.flag-unitedkingdom-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/United_Kingdom.png") no-repeat;
+}
+.flag-finland-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Finland.png") no-repeat;
+}
+.flag-russia-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Russia.png") no-repeat;
+}
+.flag-serbia-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Serbia.png") no-repeat;
+}
+.flag-france-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/France.png") no-repeat;
+}
+.flag-tunisia-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Tunisia.png") no-repeat;
+}
+.flag-albania-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Albania.png") no-repeat;
+}
+.flag-czechrepublic-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Czech_Republic.png") no-repeat;
+}
+.flag-china-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/China.png") no-repeat;
+}
+.flag-thailand-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Thailand.png") no-repeat;
+}
+.flag-indonesia-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Indonesia.png") no-repeat;
+}
+.flag-cyprus-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Cyprus.png") no-repeat;
+}
+.flag-cotedivoire-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Cote_d'Ivoire.png") no-repeat;
+}
+.flag-uae-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/United_Arab_Emirates.png") no-repeat;
+}
+.flag-ireland-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Ireland.png") no-repeat;
+}
+
+/*  SQUARE FLAT FLAGS */
+.flag-australia-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Australia.png") no-repeat;
+}
+.flag-brazil-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Brazil.png") no-repeat;
+}
+.flag-canada-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Canada.png") no-repeat;
+}
+.flag-denmark-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Denmark.png") no-repeat;
+}
+.flag-germany-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Germany.png") no-repeat;
+}
+.flag-hongkong-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Hong-Kong.png") no-repeat;
+}
+.flag-india-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/India.png") no-repeat;
+}
+.flag-italy-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Italy.png") no-repeat;
+}
+.flag-japan-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Japan.png") no-repeat;
+}
+.flag-nigeria-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Nigeria.png") no-repeat;
+}
+.flag-norway-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Norway.png") no-repeat;
+}
+.flag-poland-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Poland.png") no-repeat;
+}
+.flag-spain-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Spain.png") no-repeat;
+}
+.flag-sweden-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Sweden.png") no-repeat;
+}
+.flag-turkey-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Turkey.png") no-repeat;
+}
+.flag-unitedkingdom-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/United-Kingdom.png") no-repeat;
+}
+.flag-finland-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Finland.png") no-repeat;
+}
+.flag-russia-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Russia.png") no-repeat;
+}
+.flag-serbia-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Serbia.png") no-repeat;
+}
+.flag-france-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/France.png") no-repeat;
+}
+.flag-tunisia-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Tunisia.png") no-repeat;
+}
+.flag-albania-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Albania.png") no-repeat;
+}
+.flag-czechrepublic-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Czech-Republic.png") no-repeat;
+}
+.flag-china-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/China.png") no-repeat;
+}
+.flag-thailand-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Thailand.png") no-repeat;
+}
+.flag-indonesia-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Indonesia.png") no-repeat;
+}
+.flag-cyprus-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Cyprus.png") no-repeat;
+}
+.flag-cotedivoire-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Cote-dIvoire.png") no-repeat;
+}
+.flag-uae-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/United-Arab-Emirates.png") no-repeat;
+}
+.flag-ireland-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Ireland.png") no-repeat;
+}
+
+/*  SQUARE SHINY FLAGS */
+.flag-australia-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Australia.png") no-repeat;
+}
+.flag-brazil-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Brazil.png") no-repeat;
+}
+.flag-canada-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Canada.png") no-repeat;
+}
+.flag-denmark-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Denmark.png") no-repeat;
+}
+.flag-germany-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Germany.png") no-repeat;
+}
+.flag-hongkong-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Hong-Kong.png") no-repeat;
+}
+.flag-india-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/India.png") no-repeat;
+}
+.flag-italy-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Italy.png") no-repeat;
+}
+.flag-japan-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Japan.png") no-repeat;
+}
+.flag-nigeria-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Nigeria.png") no-repeat;
+}
+.flag-norway-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Norway.png") no-repeat;
+}
+.flag-poland-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Poland.png") no-repeat;
+}
+.flag-spain-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Spain.png") no-repeat;
+}
+.flag-sweden-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Sweden.png") no-repeat;
+}
+.flag-turkey-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Turkey.png") no-repeat;
+}
+.flag-unitedkingdom-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/United-Kingdom.png") no-repeat;
+}
+.flag-finland-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Finland.png") no-repeat;
+}
+.flag-russia-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Russia.png") no-repeat;
+}
+.flag-serbia-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Serbia.png") no-repeat;
+}
+.flag-france-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/France.png") no-repeat;
+}
+.flag-tunisia-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Tunisia.png") no-repeat;
+}
+.flag-albania-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Albania.png") no-repeat;
+}
+.flag-czechrepublic-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Czech-Republic.png") no-repeat;
+}
+.flag-china-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/China.png") no-repeat;
+}
+.flag-thailand-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Thailand.png") no-repeat;
+}
+.flag-indonesia-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Indonesia.png") no-repeat;
+}
+.flag-cyprus-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Cyprus.png") no-repeat;
+}
+.flag-cotedivoire-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Cote-dIvoire.png") no-repeat;
+}
+.flag-uae-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/United-Arab-Emirates.png") no-repeat;
+}
+.flag-ireland-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Ireland.png") no-repeat;
+}
