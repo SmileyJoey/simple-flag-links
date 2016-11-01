@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Simple Flag Links
  * Description: This plugin adds a widget where you can add a flag + a link on the page.
- * Version: 1.0.8
+ * Version: 1.0.9
  * Author: Hanning Høegh - Better Collective
  * License: GPL2
  * License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -81,6 +81,7 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 			'thailand'				 => '',
 			'indonesia'				 => '',
 			'ireland'				 => '',
+			'newzealand'				 => '',
 		) );
 
 
@@ -207,6 +208,10 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 			'ireland' => array(
 				'label'   => __( 'Ireland URI', 'ssiw' ),
 				'pattern' => '<li class="flag-ireland-%s %s"><a href="%s" %s></a></li>',
+			),
+			'newzealand' => array(
+				'label'   => __( 'New Zealand URI', 'ssiw' ),
+				'pattern' => '<li class="flag-newzealand-%s %s"><a href="%s" %s></a></li>',
 			),
 		) );
 
@@ -451,7 +456,6 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 
 	function enqueue_css() {
 		$cssfile = apply_filters( 'simple_flag_links_default_css', plugin_dir_url( __FILE__ ) . 'css/style.css' );
-    	wp_enqueue_style( 'hover-min', '//cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css#asyncload', false, null);
 		wp_enqueue_style( 'simple-flag-links-font', esc_url( $cssfile ), array(), '1.0.12', 'all' );
 	}
 
