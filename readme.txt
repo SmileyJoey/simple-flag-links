@@ -3,7 +3,7 @@ Contributors: Hanning
 Tags: flags, language flags, language links
 Requires at least: 4.0
 Tested up to: 4.6.1
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 
 This plugin allows you to insert flags + links in any widget area.
 
@@ -56,10 +56,15 @@ No, not at this time.
 * Cote d Ivoire
 * United Arab Emirates
 * Ireland
+* New Zealand
 
 NOTE - The rights to each flag icon are either trademarked, open sourced or copyrighted by the respective company.
 
 == Changelog ==
+
+= 1.0.9 =
+* Added New Zealand
+* Localized Hover.css into Style.css
 
 = 1.0.8 =
 * Added Ireland
