@@ -3,7 +3,7 @@ Contributors: Hanning
 Tags: flags, language flags, language links
 Requires at least: 4.0
 Tested up to: 4.6.1
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 
 This plugin allows you to insert flags + links in any widget area.
 
@@ -61,6 +61,9 @@ No, not at this time.
 NOTE - The rights to each flag icon are either trademarked, open sourced or copyrighted by the respective company.
 
 == Changelog ==
+
+= 1.1.0 =
+* Compressed images
 
 = 1.0.9 =
 * Added New Zealand

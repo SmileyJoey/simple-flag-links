@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Simple Flag Links
  * Description: This plugin adds a widget where you can add a flag + a link on the page.
- * Version: 1.0.9
+ * Version: 1.1.0
  * Author: Hanning Høegh - Better Collective
  * License: GPL2
  * License URI: http://www.opensource.org/licenses/gpl-license.php
