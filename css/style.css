@@ -154,6 +154,9 @@
 .flag-newzealand-round a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-round/New_Zealand.png") no-repeat;
 }
+.flag-netherlands-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Netherlands.png") no-repeat;
+}
 
 /*  SQUARE FLAT FLAGS */
 .flag-australia-square-flat a{
@@ -249,6 +252,9 @@
 .flag-newzealand-square-flat a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-round/New-Zealand.png") no-repeat;
 }
+.flag-netherlands-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Netherlands.png") no-repeat;
+}
 
 /*  SQUARE SHINY FLAGS */
 .flag-australia-square-shiny a{
@@ -343,4 +349,7 @@
 }
 .flag-newzealand-square-shiny a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-round/New-Zealand.png") no-repeat;
+}
+.flag-netherlands-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Netherlands.png") no-repeat;
 }
