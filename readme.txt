@@ -3,7 +3,7 @@ Contributors: Hanning
 Tags: flags, language flags, language links
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 
 This plugin allows you to insert flags + links in any widget area.
 
