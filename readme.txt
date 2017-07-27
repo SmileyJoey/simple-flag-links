@@ -3,7 +3,7 @@ Contributors: Hanning
 Tags: flags, language flags, language links
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 
 This plugin allows you to insert flags + links in any widget area.
 
@@ -58,10 +58,14 @@ No, not at this time.
 * Ireland
 * New Zealand
 * Netherlands
+* Portugal
 
 NOTE - The rights to each flag icon are either trademarked, open sourced or copyrighted by the respective company.
 
 == Changelog ==
+
+= 1.1.5 =
+* Added Portugal
 
 = 1.1.2 =
 * Added Greece
