@@ -1,6 +1,6 @@
 # Simple Flag Links
 
-Simple Flag Links is an easy to use WordPress plugin, to display flags that link visitors to your other sites on another language. With it, you can easily choose which languages to link to, choose the flag in three styles and size of your flags, as well as align them to the left, center, or right, all from the widget form (no settings page necessary!).
+Simple Flag Links is an easy to use WordPress plugin, to display flags that link visitors to your other sites on another language. With it, you can easily choose which languages to link to, choose the flag in three styles and specify the size of your flags, as well as align them to the left, center, or right, all from the widget form (no settings page necessary!).
 
 ## Getting Started
 
