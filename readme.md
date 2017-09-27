@@ -13,7 +13,7 @@ Simple Flag Links is an easy to use WordPress plugin, to display flags that link
 
 = Can I reorder the flags? =
 
-No, not at this time.
+No, not at this point.
 
 = Which languages/flags are included? =
 
