@@ -50,10 +50,14 @@ No, not at this point.
 * New Zealand
 * Netherlands
 * Portugal
+* Mexico
 
 NOTE - The rights to each flag icon are either trademarked, open sourced or copyrighted by the respective company.
 
 == Changelog ==
+
+= 1.1.6 =
+* Added Mexico
 
 = 1.1.5 =
 * Added Portugal

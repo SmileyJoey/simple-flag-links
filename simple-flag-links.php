@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Simple Flag Links
  * Description: This plugin adds a widget where you can add a flag + a link on the page.
- * Version: 1.1.5
+ * Version: 1.1.6
  * Author: Hanning Høegh - Better Collective
  * License: GPL2
  * License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -85,6 +85,7 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 			'netherlands'			 => '',
 			'greece'				 => '',
 			'portugal'				 => '',
+			'mexico'				 => '',
 		) );
 
 
@@ -227,6 +228,10 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 			'portugal' => array(
 				'label'   => __( 'Portugal URI', 'ssiw' ),
 				'pattern' => '<li class="flag-portugal-%s %s"><a href="%s" %s></a></li>',
+			),
+			'mexico' => array(
+				'label'   => __( 'Mexico URI', 'ssiw' ),
+				'pattern' => '<li class="flag-mexico-%s %s"><a href="%s" %s></a></li>',
 			),
 		) );
 

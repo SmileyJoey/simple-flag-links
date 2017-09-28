@@ -163,6 +163,9 @@
 .flag-portugal-round a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-round/Portugal.png") no-repeat;
 }
+.flag-mexico-round a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-round/Mexico.png") no-repeat;
+}
 
 /*  SQUARE FLAT FLAGS */
 .flag-australia-square-flat a{
@@ -267,6 +270,9 @@
 .flag-portugal-square-flat a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Portugal.png") no-repeat;
 }
+.flag-mexico-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Mexico.png") no-repeat;
+}
 
 /*  SQUARE SHINY FLAGS */
 .flag-australia-square-shiny a{
@@ -370,4 +376,7 @@
 }
 .flag-portugal-square-shiny a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Portugal.png") no-repeat;
+}
+.flag-mexico-square-shiny a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-shiny-squared/Mexico.png") no-repeat;
 }
