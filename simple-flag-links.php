@@ -86,6 +86,7 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 			'greece'				 => '',
 			'portugal'				 => '',
 			'mexico'				 => '',
+			'romania'				 => '',
 		) );
 
 
@@ -232,6 +233,10 @@ class Simple_Flag_Links_Widget extends WP_Widget {
 			'mexico' => array(
 				'label'   => __( 'Mexico URI', 'ssiw' ),
 				'pattern' => '<li class="flag-mexico-%s %s"><a href="%s" %s></a></li>',
+			),
+      'romania' => array(
+				'label'   => __( 'Romania URI', 'ssiw' ),
+				'pattern' => '<li class="flag-romania-%s %s"><a href="%s" %s></a></li>',
 			),
 		) );
 
