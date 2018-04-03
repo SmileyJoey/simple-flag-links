@@ -273,6 +273,9 @@
 .flag-mexico-square-flat a{
 	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Mexico.png") no-repeat;
 }
+.flag-romania-square-flat a{
+	background: url("/wp-content/plugins/simple-flag-links/flags-flat-squared/Romania.png") no-repeat;
+}
 
 /*  SQUARE SHINY FLAGS */
 .flag-australia-square-shiny a{
